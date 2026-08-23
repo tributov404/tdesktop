@@ -133,7 +133,7 @@ else
 fi
 ```
 
-If missing, build it: `cmake --build out --config Debug --target codegen_style`
+If missing, build it: `cmake --build out --config Release --target codegen_style`
 
 Test on a known good SVG (use the appropriate binary path for the OS):
 ```bash
